@@ -56,7 +56,7 @@ pip install -r requirements.txt
 </div>
 
 <details>
-<summary>Text Prompts</summary>
+<summary style='color:#0969da'>Text Prompts</summary>
 
 - Prompt1: *A close up view of this item. It is placed on a wooden table. The background is a dark room, the TV is on, and the screen is showing a cooking show. With text on the screen that reads 'Omini Control!.'*
 - Prompt2: *A film style shot. On the moon, this item drives across the moon surface. A flag on it reads 'Omini'. The background is that Earth looms large in the foreground.*
@@ -64,7 +64,7 @@ pip install -r requirements.txt
 - Prompt4: *In a Bauhaus style room, this item is placed on a shiny glass table, with a vase of flowers next to it. In the afternoon sun, the shadows of the blinds are cast on the wall.*
 </details>
 <details>
-<summary>More results 🖼️</summary>
+<summary style='color:#0969da'>More results 🖼️</summary>
 
 * Try on:
   <img src='./assets/demo/try_on.jpg'/>
@@ -85,7 +85,7 @@ pip install -r requirements.txt
 2. **Other spatially aligned tasks**  (Canny edge to image, depth to image, colorization, deblurring) 
     </br>
     <details>
-    <summary>Show more</summary>
+    <summary style='color:#0969da'>Click to show</summary>
     <div float="left">
       <img src='./assets/demo/room_corner_canny.jpg' width='48%'/>
       <img src='./assets/demo/room_corner_depth.jpg' width='48%' />
