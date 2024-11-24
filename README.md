@@ -26,13 +26,18 @@
 
 ## Features
 
-OmniControl is a minimal yet powerful universal control framework for Diffusion Transformer models like FLUX.
+OmniControl is a minimal yet powerful universal control framework for Diffusion Transformer models like [FLUX](https://github.com/black-forest-labs/flux).
 
 * **Universal Control 🌐**: Supports both subject-driven signals (like [IP-Adapter](https://github.com/tencent-ailab/IP-Adapter)) and spatial control (like [ControlNet](https://github.com/lllyasviel/ControlNet)).
 
 * **Minimal Design 🚀**: Injects control signals while preserving original model structure. Only introduces 0.1% additional parameters to the base model.
 
-## Tasks
+## Usage examples
+1. Subject-driven generation: `examples/subject.ipynb`
+2. In-painting: `examples/inpainting.ipynb`
+3. Canny edge to image, depth to image, colorization, deblurring: `examples/spatial.ipynb`
+
+## Generated samples
 ### Subject-driven generation
 **Demos** (Left: condition image; Right: generated image)
 
