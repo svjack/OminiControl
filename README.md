@@ -36,12 +36,12 @@ OmniControl is a minimal yet powerful universal control framework for Diffusion 
 ### Subject-driven generation
 **Demos** (Left: condition image; Right: generated image)
 
-<dim float="left">
+<div float="left">
   <img src='./assets/demo/oranges_omini.jpg' width='48%'/>
   <img src='./assets/demo/rc_car_omini.jpg' width='48%' />
   <img src='./assets/demo/clock_omini.jpg' width='48%' />
   <img src='./assets/demo/shirt_omini.jpg' width='48%' />
-</dim>
+</div>
 
 <details>
 <summary>Text Prompts</summary>
@@ -58,16 +58,16 @@ OmniControl is a minimal yet powerful universal control framework for Diffusion 
     </br>
     <img src='./assets/demo/monalisa_omini.jpg' width='700px' />
   - Prompt: *A yellow book with the word 'OMINI' in large font on the cover. The text 'for FLUX' appears at the bottom.*
-  </br>
-  <img src='./assets/demo/book_omini.jpg' width='700px' />
-2. **Other spatially aligned tasks**  (Canny edge to image, depth to image, colorization, deblurring)
-  </br>
-  <dim float="left">
-    <img src='./assets/demo/room_corner_canny.jpg' width='48%'/>
-    <img src='./assets/demo/room_corner_depth.jpg' width='48%' />
-    <img src='./assets/demo/room_corner_coloring.jpg' width='48%' />
-    <img src='./assets/demo/room_corner_deblurring.jpg' width='48%' />
-  </dim>
+    </br>
+    <img src='./assets/demo/book_omini.jpg' width='700px' />
+2. **Other spatially aligned tasks**  (Canny edge to image, depth to image, colorization, deblurring) 
+    </br>
+    <div float="left">
+      <img src='./assets/demo/room_corner_canny.jpg' width='48%'/>
+      <img src='./assets/demo/room_corner_depth.jpg' width='48%' />
+      <img src='./assets/demo/room_corner_coloring.jpg' width='48%' />
+      <img src='./assets/demo/room_corner_deblurring.jpg' width='48%' />
+    </div>
    
 
 
