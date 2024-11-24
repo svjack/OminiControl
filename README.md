@@ -4,12 +4,8 @@
 <img src='./assets/demo/demo_this_is_omini_control.jpg' width='100%' />
 <br>
 
-<a href="https://arxiv.org/abs/2411.xxxx">
-  <img src="https://img.shields.io/badge/ariXv-2411.xxxx-A42C25.svg" alt="arXiv">
-</a>
-<a href="https://huggingface.co/Yuanshi/OminiControl">
-  <img src="https://img.shields.io/badge/🤗_HuggingFace-Model-ffbd45.svg" alt="HuggingFace">
-</a>
+<a href="https://arxiv.org/abs/2411.xxxx"><img src="https://img.shields.io/badge/ariXv-2411.xxxx-A42C25.svg" alt="arXiv"></a>
+<a href="https://huggingface.co/Yuanshi/OminiControl"><img src="https://img.shields.io/badge/🤗_HuggingFace-Model-ffbd45.svg" alt="HuggingFace"></a>
 
 > **OminiControl: Minimal and Universal Control for Diffuison Transformer**
 > <br>
@@ -66,6 +62,16 @@ pip install -r requirements.txt
 - Prompt2: *A film style shot. On the moon, this item drives across the moon surface. A flag on it reads 'Omini'. The background is that Earth looms large in the foreground.*
 - Prompt3: *In a Bauhaus style room, this item is placed on a shiny glass table, with a vase of flowers next to it. In the afternoon sun, the shadows of the blinds are cast on the wall.*
 - Prompt4: *In a Bauhaus style room, this item is placed on a shiny glass table, with a vase of flowers next to it. In the afternoon sun, the shadows of the blinds are cast on the wall.*
+</details>
+<details>
+<summary>More results 🖼️</summary>
+
+* Try on:
+  <img src='./assets/demo/try_on.jpg'/>
+* Scene variations:
+  <img src='./assets/demo/scene_variation.jpg'/>
+* Dreambooth dataset:
+  <img src='./assets/demo/dreambooth_res.jpg'/>
 </details>
 
 ### Spaitally aligned control
