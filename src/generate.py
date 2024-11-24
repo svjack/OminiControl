@@ -13,13 +13,6 @@ from diffusers.pipelines.flux.pipeline_flux import (
 )
 
 
-def get_config(config_path: str = None):
-    config_path = config_path or os.environ.get("XFL_CONFIG") or "./config/config.yaml"
-    with open(config_path, "r") as f:
-        config = yaml.safe_load(f)
-    return config
-
-
 def prepare_params(
     prompt: Union[str, List[str]] = None,
     prompt_2: Optional[Union[str, List[str]]] = None,
@@ -169,9 +162,7 @@ def generate(
     )
 
     # 4.1. Prepare conditions
-    condition_latents, condition_ids, condition_type_ids, position_bias = (
-        [] for _ in range(4)
-    )
+    condition_latents, condition_ids, condition_type_ids = ([] for _ in range(3))
     use_condition = conditions is not None or []
     if use_condition:
         assert len(conditions) <= 1, "Only one condition is supported for now."
@@ -181,11 +172,10 @@ def generate(
             condition_latents.append(tokens)  # [batch_size, token_n, token_dim]
             condition_ids.append(ids)  # [token_n, id_dim(3)]
             condition_type_ids.append(type_id)  # [token_n, 1]
-            position_bias.append(condition.position_bias)
         condition_latents = torch.cat(condition_latents, dim=1)
         condition_ids = torch.cat(condition_ids, dim=0)
-        condition_ids[:, 1] += position_bias[0][0]
-        condition_ids[:, 2] += position_bias[0][1]
+        if condition.condition_type == "subject":
+            condition_ids[:, 2] += width // 16
         condition_type_ids = torch.cat(condition_type_ids, dim=0)
 
     # 5. Prepare timesteps

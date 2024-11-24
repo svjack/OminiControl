@@ -22,7 +22,6 @@ class Condition(object):
         raw_img: Union[Image.Image, torch.Tensor] = None,
         condition: Union[Image.Image, torch.Tensor] = None,
         mask=None,
-        position_bias=None,
     ) -> None:
         self.condition_type = condition_type
         assert raw_img is not None or condition is not None
@@ -30,7 +29,6 @@ class Condition(object):
             self.condition = self.get_condition(condition_type, raw_img)
         else:
             self.condition = condition
-        self.position_bias = position_bias or [0, 0]
         # TODO: Add mask support
         assert mask is None, "Mask not supported yet"
 
@@ -67,6 +65,8 @@ class Condition(object):
                 .convert("RGB")
             )
             return condition_image
+        elif condition_type == "fill":
+            return raw_img.convert("RGB")
         return self.condition
 
     @property
