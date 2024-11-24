@@ -28,11 +28,22 @@
 
 OmniControl is a minimal yet powerful universal control framework for Diffusion Transformer models like [FLUX](https://github.com/black-forest-labs/flux).
 
-* **Universal Control 🌐**: Supports both subject-driven signals (like [IP-Adapter](https://github.com/tencent-ailab/IP-Adapter)) and spatial control (like [ControlNet](https://github.com/lllyasviel/ControlNet)).
+* **Universal Control 🌐**:  A unified control framework that supports both subject-driven control and spatial control (such as edge-guided and in-painting generation).
 
 * **Minimal Design 🚀**: Injects control signals while preserving original model structure. Only introduces 0.1% additional parameters to the base model.
 
-## Usage examples
+## Quick Start
+### Setup (Optional)
+1. **Environment setup**
+```bash
+conda create -n omini python=3.10
+conda activate omini
+```
+2. **Requirements installation**
+```bash
+pip install -r requirements.txt
+```
+### Usage example
 1. Subject-driven generation: `examples/subject.ipynb`
 2. In-painting: `examples/inpainting.ipynb`
 3. Canny edge to image, depth to image, colorization, deblurring: `examples/spatial.ipynb`
@@ -67,20 +78,35 @@ OmniControl is a minimal yet powerful universal control framework for Diffusion 
     <img src='./assets/demo/book_omini.jpg' width='700px' />
 2. **Other spatially aligned tasks**  (Canny edge to image, depth to image, colorization, deblurring) 
     </br>
+    <details>
+    <summary>Show more</summary>
     <div float="left">
       <img src='./assets/demo/room_corner_canny.jpg' width='48%'/>
       <img src='./assets/demo/room_corner_depth.jpg' width='48%' />
       <img src='./assets/demo/room_corner_coloring.jpg' width='48%' />
       <img src='./assets/demo/room_corner_deblurring.jpg' width='48%' />
     </div>
+    
+    Prompt: *A light gray sofa stands against a white wall, featuring a black and white geometric patterned pillow. A white side table sits next to the sofa, topped with a white adjustable desk lamp and some books. Dark hardwood flooring contrasts with the pale walls and furniture.*
+    </details>
    
 
 
 
-<!-- ## Models
-| Model          | Base model | Tasks                                                                    |                                                       |
-| -------------- | ---------- | ------------------------------------------------------------------------ | ----------------------------------------------------- |
-| `experimental` | FLUX.1     | Canny edge to image, depth to image, colorization, deblurring, mask fill | [🤗](https://huggingface.co/Yuanshi/OminiControl-FLUX) | --> |
+## Models
+
+**Subject-driven control:**
+| Model                                                                                            | Base model     | Description                                                                                              | Resolution   |
+| ------------------------------------------------------------------------------------------------ | -------------- | -------------------------------------------------------------------------------------------------------- | ------------ |
+| [`experimental`](https://huggingface.co/Yuanshi/OminiControl/tree/main/experimental) / `subject` | FLUX.1-schnell | The model used in the paper.                                                                             | (512, 512)   |
+| [`omini`](https://huggingface.co/Yuanshi/OminiControl/tree/main/omini) / `subject_512`           | FLUX.1-schnell | The model has been fine-tuned on a larger dataset.                                                       | (512, 512)   |
+| [`omini`](https://huggingface.co/Yuanshi/OminiControl/tree/main/omini) / `subject_1024`          | FLUX.1-schnell | The model has been fine-tuned on a larger dataset and accommodates higher resolution.   (To be released) | (1024, 1024) |
+
+**Spatial aligned control:**
+| Model                                                                                                     | Base model | Description                                                                | Resolution   |
+| --------------------------------------------------------------------------------------------------------- | ---------- | -------------------------------------------------------------------------- | ------------ |
+| [`experimental`](https://huggingface.co/Yuanshi/OminiControl/tree/main/experimental) / `<task_name>`      | FLUX.1     | Canny edge to image, depth to image, colorization, deblurring, in-painting | (512, 512)   |
+| [`experimental`](https://huggingface.co/Yuanshi/OminiControl/tree/main/experimental) / `<task_name>_1024` | FLUX.1     | Supports higher resolution.(To be released)                                | (1024, 1024) |
 
 ## Citation
 ```
