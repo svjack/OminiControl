@@ -9,6 +9,12 @@
 <a href="https://huggingface.co/spaces/Yuanshi/OminiControl"><img src="https://img.shields.io/badge/🤗_HF-Space-ffbd45.svg" alt="HuggingFace"></a>
 <a href="https://github.com/Yuanshi9815/Subjects200K"><img src="https://img.shields.io/badge/GitHub-Subjects200K dataset-blue.svg?logo=github&" alt="GitHub"></a>
 
+```bash
+sudo apt-get update && sudo apt-get install git-lfs cbm ffmpeg
+git clone https://huggingface.co/spaces/svjack/OminiControl && cd OminiControl && pip install -r requirements.txt
+python app.py
+```
+
 > **OminiControl: Minimal and Universal Control for Diffuison Transformer**
 > <br>
 > Zhenxiong Tan, 
