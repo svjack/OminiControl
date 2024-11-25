@@ -4,8 +4,9 @@
 <img src='./assets/demo/demo_this_is_omini_control.jpg' width='100%' />
 <br>
 
-<a href="https://arxiv.org/abs/2411.xxxx"><img src="https://img.shields.io/badge/ariXv-2411.xxxx-A42C25.svg" alt="arXiv"></a>
+<a href="https://arxiv.org/abs/2411.15098"><img src="https://img.shields.io/badge/ariXv-2411.15098-A42C25.svg" alt="arXiv"></a>
 <a href="https://huggingface.co/Yuanshi/OminiControl"><img src="https://img.shields.io/badge/🤗_HuggingFace-Model-ffbd45.svg" alt="HuggingFace"></a>
+<a href="https://github.com/Yuanshi9815/Subjects200K"><img src="https://img.shields.io/badge/GitHub-Subjects200K dataset-blue.svg?logo=github&" alt="GitHub"></a>
 
 > **OminiControl: Minimal and Universal Control for Diffuison Transformer**
 > <br>
@@ -56,7 +57,7 @@ pip install -r requirements.txt
 </div>
 
 <details>
-<summary style='color:#0969da'>Text Prompts</summary>
+<summary>Text Prompts</summary>
 
 - Prompt1: *A close up view of this item. It is placed on a wooden table. The background is a dark room, the TV is on, and the screen is showing a cooking show. With text on the screen that reads 'Omini Control!.'*
 - Prompt2: *A film style shot. On the moon, this item drives across the moon surface. A flag on it reads 'Omini'. The background is that Earth looms large in the foreground.*
@@ -64,7 +65,7 @@ pip install -r requirements.txt
 - Prompt4: *In a Bauhaus style room, this item is placed on a shiny glass table, with a vase of flowers next to it. In the afternoon sun, the shadows of the blinds are cast on the wall.*
 </details>
 <details>
-<summary style='color:#0969da'>More results 🖼️</summary>
+<summary>More results</summary>
 
 * Try on:
   <img src='./assets/demo/try_on.jpg'/>
@@ -85,7 +86,7 @@ pip install -r requirements.txt
 2. **Other spatially aligned tasks**  (Canny edge to image, depth to image, colorization, deblurring) 
     </br>
     <details>
-    <summary style='color:#0969da'>Click to show</summary>
+    <summary>Click to show</summary>
     <div float="left">
       <img src='./assets/demo/room_corner_canny.jpg' width='48%'/>
       <img src='./assets/demo/room_corner_depth.jpg' width='48%' />
@@ -120,7 +121,7 @@ pip install -r requirements.txt
   tan2024omini,
   title={OminiControl: Minimal and Universal Control for Diffusion Transformer},
   author={Zhenxiong Tan, Songhua Liu, Xingyi Yang, Qiaochu Xue, and Xinchao Wang},
-  journal={arXiv preprint arXiv:2411.xxxx},
+  journal={arXiv preprint arXiv:2411.15098},
   year={2024}
 }
 ```
