@@ -20,32 +20,52 @@ python app.py
 
 ## References
 - **IMG_bat_ref.jpeg**
-  ![IMG_bat_ref.jpeg](IMG_bat_ref.jpeg)
+  <div style="display: flex; flex-direction: column; align-items: center;">
+    <img src="IMG_bat_ref.jpeg" alt="IMG_bat_ref.jpeg" style="max-width: 100%;">
+  </div>
 - **IMG_hs_ref.jpeg**
-  ![IMG_hs_ref.jpeg](IMG_hs_ref.jpeg)
+  <div style="display: flex; flex-direction: column; align-items: center;">
+    <img src="IMG_hs_ref.jpeg" alt="IMG_hs_ref.jpeg" style="max-width: 100%;">
+  </div>
 - **IMG_kv_ref.jpeg**
-  ![IMG_kv_ref.jpeg](IMG_kv_ref.jpeg)
+  <div style="display: flex; flex-direction: column; align-items: center;">
+    <img src="IMG_kv_ref.jpeg" alt="IMG_kv_ref.jpeg" style="max-width: 100%;">
+  </div>
 
 ## Generated Images
 
 ### Cards
 - **IMG_bat_gen.webp**
-  - **Prompt:** A film style shot. On the moon, this item on the moon surface. The background is that Earth looms large in the foreground.
-  ![IMG_bat_gen.webp](IMG_bat_gen.webp)
+  <div style="display: flex; flex-direction: column; align-items: center;">
+    <img src="IMG_bat_gen.webp" alt="IMG_bat_gen.webp" style="max-width: 100%;">
+    <p><strong>Prompt:</strong> A film style shot. On the moon, this item on the moon surface. The background is that Earth looms large in the foreground.</p>
+  </div>
 - **image_hs_card_gen.webp**
-  - **Prompt:** In a Bauhaus style room, this item is placed on a shiny glass table, with a vase of flowers next to it. In the afternoon sun, the shadows of the blinds are cast on the wall.
-  ![image_hs_card_gen.webp](image_hs_card_gen.webp)
+  <div style="display: flex; flex-direction: column; align-items: center;">
+    <img src="image_hs_card_gen.webp" alt="image_hs_card_gen.webp" style="max-width: 100%;">
+    <p><strong>Prompt:</strong> In a Bauhaus style room, this item is placed on a shiny glass table, with a vase of flowers next to it. In the afternoon sun, the shadows of the blinds are cast on the wall.</p>
+  </div>
 - **image_kv_card_gen.webp**
-  - **Prompt:** In a Bauhaus style room, this item is placed on a shiny glass table, with a vase of flowers next to it. In the afternoon sun, the shadows of the blinds are cast on the wall.
-  ![image_kv_card_gen.webp](image_kv_card_gen.webp)
+  <div style="display: flex; flex-direction: column; align-items: center;">
+    <img src="image_kv_card_gen.webp" alt="image_kv_card_gen.webp" style="max-width: 100%;">
+    <p><strong>Prompt:</strong> In a Bauhaus style room, this item is placed on a shiny glass table, with a vase of flowers next to it. In the afternoon sun, the shadows of the blinds are cast on the wall.</p>
+  </div>
 
 ### Dolls
 - **image_hs_doll_gen.webp**
-  - **Prompt:** This item, a charming doll, nestles in a plush bed surrounded by colorful pillows in a pastel-colored bedroom. Its velvety fabric feels luxuriously soft, while its downy-stuffed limbs offer a huggable plumpness. A gentle breeze from the open window rustles sheer curtains, casting delicate light patterns on the floor. A small wooden nightstand holds a tiny lamp, casting a warm glow. The room's faint lavender scent and the distant clock's soft hum create a tranquil ambiance.
-  ![image_hs_doll_gen.webp](image_hs_doll_gen.webp)
+  <div style="display: flex; flex-direction: column; align-items: center;">
+    <img src="image_hs_doll_gen.webp" alt="image_hs_doll_gen.webp" style="max-width: 100%;">
+    <p><strong>Prompt:</strong> This item, a charming doll, nestles in a plush bed surrounded by colorful pillows in a pastel-colored bedroom. Its velvety fabric feels luxuriously soft, while its downy-stuffed limbs offer a huggable plumpness. A gentle breeze from the open window rustles sheer curtains, casting delicate light patterns on the floor. A small wooden nightstand holds a tiny lamp, casting a warm glow. The room's faint lavender scent and the distant clock's soft hum create a tranquil ambiance.</p>
+  </div>
 - **image_kv_doll_gen.webp**
-  - **Prompt:** This item, a charming doll, nestles in a plush bed surrounded by colorful pillows in a pastel-colored bedroom. Its velvety fabric feels luxuriously soft, while its downy-stuffed limbs offer a huggable plumpness. A gentle breeze from the open window rustles sheer curtains, casting delicate light patterns on the floor. A small wooden nightstand holds a tiny lamp, casting a warm glow. The room's faint lavender scent and the distant clock's soft hum create a tranquil ambiance.
-  ![image_kv_doll_gen.webp](image_kv_doll_gen.webp)
+  <div style="display: flex; flex-direction: column; align-items: center;">
+    <img src="image_kv_doll_gen.webp" alt="image_kv_doll_gen.webp" style="max-width: 100%;">
+    <p><strong>Prompt:</strong> This item, a charming doll, nestles in a plush bed surrounded by colorful pillows in a pastel-colored bedroom. Its velvety fabric feels luxuriously soft, while its downy-stuffed limbs offer a huggable plumpness. A gentle breeze from the open window rustles sheer curtains, casting delicate light patterns on the floor. A small wooden nightstand holds a tiny lamp, casting a warm glow. The room's faint lavender scent and the distant clock's soft hum create a tranquil ambiance.</p>
+  </div>
+
+
+<br/><br/>
+
 
 > **OminiControl: Minimal and Universal Control for Diffuison Transformer**
 > <br>
