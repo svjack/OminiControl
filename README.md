@@ -63,6 +63,32 @@ python app.py
     <p><strong>Prompt:</strong> This item, a charming doll, nestles in a plush bed surrounded by colorful pillows in a pastel-colored bedroom. Its velvety fabric feels luxuriously soft, while its downy-stuffed limbs offer a huggable plumpness. A gentle breeze from the open window rustles sheer curtains, casting delicate light patterns on the floor. A small wooden nightstand holds a tiny lamp, casting a warm glow. The room's faint lavender scent and the distant clock's soft hum create a tranquil ambiance.</p>
   </div>
 
+# Use LTX Video I2V to make video (https://github.com/svjack/LTX-Video) 
+
+## Bat_card_LTX_Video.mp4
+<div style="display: flex; flex-direction: column; align-items: center;">
+  <video controls style="max-width: 100%;">
+    <source src="Bat_card_LTX_Video.mp4" type="video/mp4">
+  </video>
+  <p><strong>Prompt:</strong> A film style shot. On the moon, this item on the moon surface. The background is that Earth looms large in the foreground.</p>
+</div>
+
+## Hs_card_LTX_Video.mp4
+<div style="display: flex; flex-direction: column; align-items: center;">
+  <video controls style="max-width: 100%;">
+    <source src="Hs_card_LTX_Video.mp4" type="video/mp4">
+  </video>
+  <p><strong>Prompt:</strong> In a Bauhaus style room, this item is placed on a shiny glass table, with a vase of flowers next to it. In the afternoon sun, the shadows of the blinds are cast on the wall.</p>
+</div>
+
+## Hs_doll_LTX_Video.mp4
+<div style="display: flex; flex-direction: column; align-items: center;">
+  <video controls style="max-width: 100%;">
+    <source src="Hs_doll_LTX_Video.mp4" type="video/mp4">
+  </video>
+  <p><strong>Prompt:</strong> This item, a charming doll, nestles in a plush bed surrounded by colorful pillows in a pastel-colored bedroom. Its velvety fabric feels luxuriously soft, while its downy-stuffed limbs offer a huggable plumpness.</p>
+</div>
+
 
 <br/><br/>
 
