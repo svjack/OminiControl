@@ -15,7 +15,7 @@ git clone https://huggingface.co/spaces/svjack/OminiControl && cd OminiControl &
 python app.py
 ```
 
-## Examples 
+## Genshin Impact Products Examples 
 # Image Files
 
 ## References
