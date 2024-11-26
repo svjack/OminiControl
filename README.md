@@ -63,7 +63,7 @@ python app.py
     <p><strong>Prompt:</strong> This item, a charming doll, nestles in a plush bed surrounded by colorful pillows in a pastel-colored bedroom. Its velvety fabric feels luxuriously soft, while its downy-stuffed limbs offer a huggable plumpness. A gentle breeze from the open window rustles sheer curtains, casting delicate light patterns on the floor. A small wooden nightstand holds a tiny lamp, casting a warm glow. The room's faint lavender scent and the distant clock's soft hum create a tranquil ambiance.</p>
   </div>
 
-# Use LTX Video I2V to make video (https://github.com/svjack/LTX-Video) 
+# Use LTX Video I2V to make Genshin Impact product video (https://github.com/svjack/LTX-Video) 
 
 ## Bat_card_LTX_Video.mp4
 <div style="margin-bottom: 10px;">
