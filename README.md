@@ -67,21 +67,27 @@ python app.py
 
 ## Bat_card_LTX_Video.mp4
 <div style="margin-bottom: 10px;">
-  <video controls autoplay src="Bat_card_LTX_Video.mp4" style="width: 1024px; height: 800px;"></video>
+  <video controls autoplay src="https://github.com/user-attachments/assets/e74148c9-300a-44cc-9334-49ced6ad9ec4" style="width: 1024px; height: 800px;"></video>
 </div>
 <p><strong>Prompt:</strong> A film style shot. On the moon, this item on the moon surface. The background is that Earth looms large in the foreground.</p>
 
 ## Hs_card_LTX_Video.mp4
 <div style="margin-bottom: 10px;">
-  <video controls autoplay src="Hs_card_LTX_Video.mp4" style="width: 1024px; height: 800px;"></video>
+  <video controls autoplay src="https://github.com/user-attachments/assets/3aa95f1b-2cde-4a16-8b3f-154a3d977faf" style="width: 1024px; height: 800px;"></video>
 </div>
 <p><strong>Prompt:</strong> In a Bauhaus style room, this item is placed on a shiny glass table, with a vase of flowers next to it. In the afternoon sun, the shadows of the blinds are cast on the wall.</p>
 
 ## Hs_doll_LTX_Video.mp4
 <div style="margin-bottom: 10px;">
-  <video controls autoplay src="Hs_doll_LTX_Video.mp4" style="width: 1024px; height: 800px;"></video>
+  <video controls autoplay src="https://github.com/user-attachments/assets/74df3a9d-5e01-482c-b1a1-d2ae76296313" style="width: 1024px; height: 800px;"></video>
 </div>
 <p><strong>Prompt:</strong> This item, a charming doll, nestles in a plush bed surrounded by colorful pillows in a pastel-colored bedroom. Its velvety fabric feels luxuriously soft, while its downy-stuffed limbs offer a huggable plumpness.</p>
+
+
+
+
+
+
 
 <br/><br/>
 
