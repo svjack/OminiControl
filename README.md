@@ -23,6 +23,14 @@ python app.py
   <div style="display: flex; flex-direction: column; align-items: center;">
     <img src="IMG_bat_ref.jpeg" alt="IMG_bat_ref.jpeg" style="max-width: 100%;">
   </div>
+- **IMG_hs_card_ref.jpeg**
+  <div style="display: flex; flex-direction: column; align-items: center;">
+    <img src="IMG_hs_ref.jpeg" alt="IMG_hs_card_ref.jpeg" style="max-width: 100%;">
+  </div>
+- **IMG_kv_card_ref.jpeg**
+  <div style="display: flex; flex-direction: column; align-items: center;">
+    <img src="IMG_kv_ref.jpeg" alt="IMG_kv_card_ref.jpeg" style="max-width: 100%;">
+  </div>
 - **IMG_hs_ref.jpeg**
   <div style="display: flex; flex-direction: column; align-items: center;">
     <img src="IMG_hs_ref.jpeg" alt="IMG_hs_ref.jpeg" style="max-width: 100%;">
