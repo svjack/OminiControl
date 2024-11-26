@@ -15,6 +15,14 @@ git clone https://huggingface.co/spaces/svjack/OminiControl && cd OminiControl &
 python app.py
 ```
 
+## Examples 
+* prompt: A film style shot. On the moon, this item on the moon surface. The background is that Earth looms large in the foreground.
+* ref-image
+  ![image](https://github.com/user-attachments/assets/5e730435-88fe-4e1a-8b5e-01186a744382)
+* generate-image
+
+
+
 > **OminiControl: Minimal and Universal Control for Diffuison Transformer**
 > <br>
 > Zhenxiong Tan, 
