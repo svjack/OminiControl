@@ -16,12 +16,36 @@ python app.py
 ```
 
 ## Examples 
-* prompt: A film style shot. On the moon, this item on the moon surface. The background is that Earth looms large in the foreground.
-* ref-image
-  ![image](https://github.com/user-attachments/assets/5e730435-88fe-4e1a-8b5e-01186a744382)
-* generate-image
+# Image Files
 
+## References
+- **IMG_bat_ref.jpeg**
+  ![IMG_bat_ref.jpeg](IMG_bat_ref.jpeg)
+- **IMG_hs_ref.jpeg**
+  ![IMG_hs_ref.jpeg](IMG_hs_ref.jpeg)
+- **IMG_kv_ref.jpeg**
+  ![IMG_kv_ref.jpeg](IMG_kv_ref.jpeg)
 
+## Generated Images
+
+### Cards
+- **IMG_bat_gen.webp**
+  - **Prompt:** A film style shot. On the moon, this item on the moon surface. The background is that Earth looms large in the foreground.
+  ![IMG_bat_gen.webp](IMG_bat_gen.webp)
+- **image_hs_card_gen.webp**
+  - **Prompt:** In a Bauhaus style room, this item is placed on a shiny glass table, with a vase of flowers next to it. In the afternoon sun, the shadows of the blinds are cast on the wall.
+  ![image_hs_card_gen.webp](image_hs_card_gen.webp)
+- **image_kv_card_gen.webp**
+  - **Prompt:** In a Bauhaus style room, this item is placed on a shiny glass table, with a vase of flowers next to it. In the afternoon sun, the shadows of the blinds are cast on the wall.
+  ![image_kv_card_gen.webp](image_kv_card_gen.webp)
+
+### Dolls
+- **image_hs_doll_gen.webp**
+  - **Prompt:** This item, a charming doll, nestles in a plush bed surrounded by colorful pillows in a pastel-colored bedroom. Its velvety fabric feels luxuriously soft, while its downy-stuffed limbs offer a huggable plumpness. A gentle breeze from the open window rustles sheer curtains, casting delicate light patterns on the floor. A small wooden nightstand holds a tiny lamp, casting a warm glow. The room's faint lavender scent and the distant clock's soft hum create a tranquil ambiance.
+  ![image_hs_doll_gen.webp](image_hs_doll_gen.webp)
+- **image_kv_doll_gen.webp**
+  - **Prompt:** This item, a charming doll, nestles in a plush bed surrounded by colorful pillows in a pastel-colored bedroom. Its velvety fabric feels luxuriously soft, while its downy-stuffed limbs offer a huggable plumpness. A gentle breeze from the open window rustles sheer curtains, casting delicate light patterns on the floor. A small wooden nightstand holds a tiny lamp, casting a warm glow. The room's faint lavender scent and the distant clock's soft hum create a tranquil ambiance.
+  ![image_kv_doll_gen.webp](image_kv_doll_gen.webp)
 
 > **OminiControl: Minimal and Universal Control for Diffuison Transformer**
 > <br>
